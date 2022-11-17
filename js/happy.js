@@ -27,6 +27,11 @@ $(function () {
         $(window).click(function(){
             $('audio')[0].play();
         });
+        $(window).on({
+            tachstart: function(){
+                $('audio')[0].play();
+            }            
+        })
         // window.audio=$('audio')[0].play();
     },1000)
 	
