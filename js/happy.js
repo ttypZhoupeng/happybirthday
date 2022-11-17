@@ -32,6 +32,7 @@ $(function () {
                 $('audio')[0].play();
             }            
         })
+        document.querySelector('#touch').focus()
         // window.audio=$('audio')[0].play();
     },1000)
 	
